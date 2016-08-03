@@ -20,5 +20,6 @@ RSpec.describe Book, :type => :model do
   it 'has a valid factory' do
    expect(build(:book)).to be_valid
   end
+
 end
 
